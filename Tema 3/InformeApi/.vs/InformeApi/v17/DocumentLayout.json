@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alberto\\source\\repos\\InformeApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25E1B2D9-4761-472C-A05C-C221EB792F37}|InformeApi\\InformeApi.csproj|c:\\users\\alberto\\source\\repos\\informeapi\\informeapi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25E1B2D9-4761-472C-A05C-C221EB792F37}|InformeApi\\InformeApi.csproj|solutionrelative:informeapi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25E1B2D9-4761-472C-A05C-C221EB792F37}|InformeApi\\InformeApi.csproj|C:\\Users\\Alberto\\source\\repos\\InformeApi\\informeapi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{25E1B2D9-4761-472C-A05C-C221EB792F37}|InformeApi\\InformeApi.csproj|solutionrelative:informeapi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto\\source\\repos\\InformeApi\\InformeApi\\Form1.cs",
+              "RelativeDocumentMoniker": "InformeApi\\Form1.cs",
+              "ToolTip": "C:\\Users\\Alberto\\source\\repos\\InformeApi\\InformeApi\\Form1.cs",
+              "RelativeToolTip": "InformeApi\\Form1.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwBQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T13:15:30.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alberto\\source\\repos\\InformeApi\\InformeApi\\Form1.cs",
+              "RelativeDocumentMoniker": "InformeApi\\Form1.cs",
+              "ToolTip": "C:\\Users\\Alberto\\source\\repos\\InformeApi\\InformeApi\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "InformeApi\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T08:15:03.226Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

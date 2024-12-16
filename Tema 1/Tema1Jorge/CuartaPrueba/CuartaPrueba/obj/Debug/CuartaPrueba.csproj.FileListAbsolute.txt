@@ -1,0 +1,10 @@
+C:\Users\Jorge\Desktop\DEINT\Tema1\CuartaPrueba\CuartaPrueba\bin\Debug\CuartaPrueba.exe.config
+C:\Users\Jorge\Desktop\DEINT\Tema1\CuartaPrueba\CuartaPrueba\bin\Debug\CuartaPrueba.exe
+C:\Users\Jorge\Desktop\DEINT\Tema1\CuartaPrueba\CuartaPrueba\bin\Debug\CuartaPrueba.pdb
+C:\Users\Jorge\Desktop\DEINT\Tema1\CuartaPrueba\CuartaPrueba\obj\Debug\CuartaPrueba.csproj.AssemblyReference.cache
+C:\Users\Jorge\Desktop\DEINT\Tema1\CuartaPrueba\CuartaPrueba\obj\Debug\CuartaPrueba.Form1.resources
+C:\Users\Jorge\Desktop\DEINT\Tema1\CuartaPrueba\CuartaPrueba\obj\Debug\CuartaPrueba.Properties.Resources.resources
+C:\Users\Jorge\Desktop\DEINT\Tema1\CuartaPrueba\CuartaPrueba\obj\Debug\CuartaPrueba.csproj.GenerateResource.cache
+C:\Users\Jorge\Desktop\DEINT\Tema1\CuartaPrueba\CuartaPrueba\obj\Debug\CuartaPrueba.csproj.CoreCompileInputs.cache
+C:\Users\Jorge\Desktop\DEINT\Tema1\CuartaPrueba\CuartaPrueba\obj\Debug\CuartaPrueba.exe
+C:\Users\Jorge\Desktop\DEINT\Tema1\CuartaPrueba\CuartaPrueba\obj\Debug\CuartaPrueba.pdb

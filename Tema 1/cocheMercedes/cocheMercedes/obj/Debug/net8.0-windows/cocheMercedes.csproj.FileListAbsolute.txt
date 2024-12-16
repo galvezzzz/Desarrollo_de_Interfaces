@@ -1,0 +1,16 @@
+C:\Users\Alberto\Desktop\Interfaces\cocheMercedes\cocheMercedes\bin\Debug\net8.0-windows\cocheMercedes.exe
+C:\Users\Alberto\Desktop\Interfaces\cocheMercedes\cocheMercedes\bin\Debug\net8.0-windows\cocheMercedes.deps.json
+C:\Users\Alberto\Desktop\Interfaces\cocheMercedes\cocheMercedes\bin\Debug\net8.0-windows\cocheMercedes.runtimeconfig.json
+C:\Users\Alberto\Desktop\Interfaces\cocheMercedes\cocheMercedes\bin\Debug\net8.0-windows\cocheMercedes.dll
+C:\Users\Alberto\Desktop\Interfaces\cocheMercedes\cocheMercedes\bin\Debug\net8.0-windows\cocheMercedes.pdb
+C:\Users\Alberto\Desktop\Interfaces\cocheMercedes\cocheMercedes\obj\Debug\net8.0-windows\cocheMercedes.Form1.resources
+C:\Users\Alberto\Desktop\Interfaces\cocheMercedes\cocheMercedes\obj\Debug\net8.0-windows\cocheMercedes.csproj.GenerateResource.cache
+C:\Users\Alberto\Desktop\Interfaces\cocheMercedes\cocheMercedes\obj\Debug\net8.0-windows\cocheMercedes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alberto\Desktop\Interfaces\cocheMercedes\cocheMercedes\obj\Debug\net8.0-windows\cocheMercedes.AssemblyInfoInputs.cache
+C:\Users\Alberto\Desktop\Interfaces\cocheMercedes\cocheMercedes\obj\Debug\net8.0-windows\cocheMercedes.AssemblyInfo.cs
+C:\Users\Alberto\Desktop\Interfaces\cocheMercedes\cocheMercedes\obj\Debug\net8.0-windows\cocheMercedes.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\Desktop\Interfaces\cocheMercedes\cocheMercedes\obj\Debug\net8.0-windows\cocheMercedes.dll
+C:\Users\Alberto\Desktop\Interfaces\cocheMercedes\cocheMercedes\obj\Debug\net8.0-windows\refint\cocheMercedes.dll
+C:\Users\Alberto\Desktop\Interfaces\cocheMercedes\cocheMercedes\obj\Debug\net8.0-windows\cocheMercedes.pdb
+C:\Users\Alberto\Desktop\Interfaces\cocheMercedes\cocheMercedes\obj\Debug\net8.0-windows\cocheMercedes.genruntimeconfig.cache
+C:\Users\Alberto\Desktop\Interfaces\cocheMercedes\cocheMercedes\obj\Debug\net8.0-windows\ref\cocheMercedes.dll

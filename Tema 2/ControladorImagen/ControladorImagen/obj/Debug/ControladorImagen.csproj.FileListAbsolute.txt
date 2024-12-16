@@ -1,0 +1,9 @@
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControladorImagen\ControladorImagen\bin\Debug\ControladorImagen.dll
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControladorImagen\ControladorImagen\bin\Debug\ControladorImagen.pdb
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControladorImagen\ControladorImagen\obj\Debug\ControladorImagen.csproj.AssemblyReference.cache
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControladorImagen\ControladorImagen\obj\Debug\ControladorImagen.csproj.GenerateResource.cache
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControladorImagen\ControladorImagen\obj\Debug\ControladorImagen.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControladorImagen\ControladorImagen\obj\Debug\ControladorImagen.dll
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControladorImagen\ControladorImagen\obj\Debug\ControladorImagen.pdb
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControladorImagen\ControladorImagen\obj\Debug\ControladorImagen.Properties.Resources.resources
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControladorImagen\ControladorImagen\obj\Debug\ControladorImagen.ImagenLeyenda.resources

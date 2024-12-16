@@ -1,0 +1,8 @@
+C:\Users\Alberto\source\repos\ControlPractica\ControlPractica\bin\Debug\ControlPractica.dll
+C:\Users\Alberto\source\repos\ControlPractica\ControlPractica\bin\Debug\ControlPractica.pdb
+C:\Users\Alberto\source\repos\ControlPractica\ControlPractica\obj\Debug\ControlPractica.csproj.AssemblyReference.cache
+C:\Users\Alberto\source\repos\ControlPractica\ControlPractica\obj\Debug\ControlPractica.UserControl1.resources
+C:\Users\Alberto\source\repos\ControlPractica\ControlPractica\obj\Debug\ControlPractica.csproj.GenerateResource.cache
+C:\Users\Alberto\source\repos\ControlPractica\ControlPractica\obj\Debug\ControlPractica.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\source\repos\ControlPractica\ControlPractica\obj\Debug\ControlPractica.dll
+C:\Users\Alberto\source\repos\ControlPractica\ControlPractica\obj\Debug\ControlPractica.pdb

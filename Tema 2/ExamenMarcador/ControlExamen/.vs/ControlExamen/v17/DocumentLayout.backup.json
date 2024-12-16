@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alberto\\source\\repos\\ControlExamen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93517286-AD90-49EA-BACC-AB4B365CBF32}|..\\UsoMarcador\\UsoMarcador\\UsoMarcador.csproj|c:\\users\\alberto\\source\\repos\\usomarcador\\usomarcador\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93517286-AD90-49EA-BACC-AB4B365CBF32}|..\\UsoMarcador\\UsoMarcador\\UsoMarcador.csproj|c:\\users\\alberto\\source\\repos\\usomarcador\\usomarcador\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF85871-2D67-4AF6-A449-EAD809C42D72}|ControlExamen\\ControlExamen.csproj|C:\\Users\\Alberto\\source\\repos\\ControlExamen\\controlexamen\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF85871-2D67-4AF6-A449-EAD809C42D72}|ControlExamen\\ControlExamen.csproj|solutionrelative:controlexamen\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF85871-2D67-4AF6-A449-EAD809C42D72}|ControlExamen\\ControlExamen.csproj|C:\\Users\\Alberto\\source\\repos\\ControlExamen\\controlexamen\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ADF85871-2D67-4AF6-A449-EAD809C42D72}|ControlExamen\\ControlExamen.csproj|solutionrelative:controlexamen\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto\\source\\repos\\UsoMarcador\\UsoMarcador\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\UsoMarcador\\UsoMarcador\\Form1.cs",
+              "ToolTip": "C:\\Users\\Alberto\\source\\repos\\UsoMarcador\\UsoMarcador\\Form1.cs",
+              "RelativeToolTip": "..\\UsoMarcador\\UsoMarcador\\Form1.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAiwJkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T13:05:00.572Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alberto\\source\\repos\\UsoMarcador\\UsoMarcador\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\UsoMarcador\\UsoMarcador\\Form1.cs",
+              "ToolTip": "C:\\Users\\Alberto\\source\\repos\\UsoMarcador\\UsoMarcador\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\UsoMarcador\\UsoMarcador\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T13:04:57.326Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserControl1.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto\\source\\repos\\ControlExamen\\ControlExamen\\UserControl1.cs",
+              "RelativeDocumentMoniker": "ControlExamen\\UserControl1.cs",
+              "ToolTip": "C:\\Users\\Alberto\\source\\repos\\ControlExamen\\ControlExamen\\UserControl1.cs",
+              "RelativeToolTip": "ControlExamen\\UserControl1.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAcwFAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T10:58:38.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserControl1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alberto\\source\\repos\\ControlExamen\\ControlExamen\\UserControl1.cs",
+              "RelativeDocumentMoniker": "ControlExamen\\UserControl1.cs",
+              "ToolTip": "C:\\Users\\Alberto\\source\\repos\\ControlExamen\\ControlExamen\\UserControl1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ControlExamen\\UserControl1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T10:49:29.851Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

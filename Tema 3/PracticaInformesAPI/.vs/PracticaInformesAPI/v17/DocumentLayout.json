@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alberto\\Desktop\\PracticaInformesAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A428ACF-6F02-4859-833C-E3F9722EED5A}|PracticaInformesAPI\\PracticaInformesAPI.csproj|C:\\Users\\Alberto\\Desktop\\PracticaInformesAPI\\practicainformesapi\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A428ACF-6F02-4859-833C-E3F9722EED5A}|PracticaInformesAPI\\PracticaInformesAPI.csproj|solutionrelative:practicainformesapi\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A428ACF-6F02-4859-833C-E3F9722EED5A}|PracticaInformesAPI\\PracticaInformesAPI.csproj|c:\\users\\alberto\\desktop\\practicainformesapi\\practicainformesapi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A428ACF-6F02-4859-833C-E3F9722EED5A}|PracticaInformesAPI\\PracticaInformesAPI.csproj|solutionrelative:practicainformesapi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A428ACF-6F02-4859-833C-E3F9722EED5A}|PracticaInformesAPI\\PracticaInformesAPI.csproj|C:\\Users\\Alberto\\Desktop\\PracticaInformesAPI\\practicainformesapi\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A428ACF-6F02-4859-833C-E3F9722EED5A}|PracticaInformesAPI\\PracticaInformesAPI.csproj|solutionrelative:practicainformesapi\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A428ACF-6F02-4859-833C-E3F9722EED5A}|PracticaInformesAPI\\PracticaInformesAPI.csproj|C:\\Users\\Alberto\\Desktop\\PracticaInformesAPI\\practicainformesapi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A428ACF-6F02-4859-833C-E3F9722EED5A}|PracticaInformesAPI\\PracticaInformesAPI.csproj|solutionrelative:practicainformesapi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A428ACF-6F02-4859-833C-E3F9722EED5A}|PracticaInformesAPI\\PracticaInformesAPI.csproj|C:\\Users\\Alberto\\Desktop\\PracticaInformesAPI\\practicainformesapi\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{8A428ACF-6F02-4859-833C-E3F9722EED5A}|PracticaInformesAPI\\PracticaInformesAPI.csproj|solutionrelative:practicainformesapi\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A428ACF-6F02-4859-833C-E3F9722EED5A}|PracticaInformesAPI\\PracticaInformesAPI.csproj|C:\\Users\\Alberto\\Desktop\\PracticaInformesAPI\\practicainformesapi\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A428ACF-6F02-4859-833C-E3F9722EED5A}|PracticaInformesAPI\\PracticaInformesAPI.csproj|solutionrelative:practicainformesapi\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Desktop\\PracticaInformesAPI\\PracticaInformesAPI\\Form2.cs",
+              "RelativeDocumentMoniker": "PracticaInformesAPI\\Form2.cs",
+              "ToolTip": "C:\\Users\\Alberto\\Desktop\\PracticaInformesAPI\\PracticaInformesAPI\\Form2.cs",
+              "RelativeToolTip": "PracticaInformesAPI\\Form2.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:47:55.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Desktop\\PracticaInformesAPI\\PracticaInformesAPI\\Form1.cs",
+              "RelativeDocumentMoniker": "PracticaInformesAPI\\Form1.cs",
+              "ToolTip": "C:\\Users\\Alberto\\Desktop\\PracticaInformesAPI\\PracticaInformesAPI\\Form1.cs",
+              "RelativeToolTip": "PracticaInformesAPI\\Form1.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA2wCUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:26:23.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Desktop\\PracticaInformesAPI\\PracticaInformesAPI\\Form2.cs",
+              "RelativeDocumentMoniker": "PracticaInformesAPI\\Form2.cs",
+              "ToolTip": "C:\\Users\\Alberto\\Desktop\\PracticaInformesAPI\\PracticaInformesAPI\\Form2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PracticaInformesAPI\\Form2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:47:40.648Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Desktop\\PracticaInformesAPI\\PracticaInformesAPI\\Form1.cs",
+              "RelativeDocumentMoniker": "PracticaInformesAPI\\Form1.cs",
+              "ToolTip": "C:\\Users\\Alberto\\Desktop\\PracticaInformesAPI\\PracticaInformesAPI\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PracticaInformesAPI\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:18:47.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Report1.rdlc [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Desktop\\PracticaInformesAPI\\PracticaInformesAPI\\Report1.rdlc",
+              "RelativeDocumentMoniker": "PracticaInformesAPI\\Report1.rdlc",
+              "ToolTip": "C:\\Users\\Alberto\\source\\repos\\PracticaInformesAPI\\PracticaInformesAPI\\Report1.rdlc [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\source\\repos\\PracticaInformesAPI\\PracticaInformesAPI\\Report1.rdlc [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2024-11-26T17:22:20.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Desktop\\PracticaInformesAPI\\PracticaInformesAPI\\Producto.cs",
+              "RelativeDocumentMoniker": "PracticaInformesAPI\\Producto.cs",
+              "ToolTip": "C:\\Users\\Alberto\\Desktop\\PracticaInformesAPI\\PracticaInformesAPI\\Producto.cs",
+              "RelativeToolTip": "PracticaInformesAPI\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:21:17.346Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

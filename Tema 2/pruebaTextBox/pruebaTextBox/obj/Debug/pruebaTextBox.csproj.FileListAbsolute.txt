@@ -1,0 +1,13 @@
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\pruebaTextBox\pruebaTextBox\bin\Debug\pruebaTextBox.exe.config
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\pruebaTextBox\pruebaTextBox\bin\Debug\pruebaTextBox.exe
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\pruebaTextBox\pruebaTextBox\bin\Debug\pruebaTextBox.pdb
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\pruebaTextBox\pruebaTextBox\obj\Debug\pruebaTextBox.csproj.AssemblyReference.cache
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\pruebaTextBox\pruebaTextBox\obj\Debug\pruebaTextBox.Properties.Resources.resources
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\pruebaTextBox\pruebaTextBox\obj\Debug\pruebaTextBox.csproj.GenerateResource.cache
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\pruebaTextBox\pruebaTextBox\obj\Debug\pruebaTextBox.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\pruebaTextBox\pruebaTextBox\obj\Debug\pruebaTextBox.exe
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\pruebaTextBox\pruebaTextBox\obj\Debug\pruebaTextBox.pdb
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\pruebaTextBox\pruebaTextBox\bin\Debug\ControlTextBox.dll
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\pruebaTextBox\pruebaTextBox\bin\Debug\ControlTextBox.pdb
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\pruebaTextBox\pruebaTextBox\obj\Debug\pruebaTextBox.Form1.resources
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\pruebaTextBox\pruebaTextBox\obj\Debug\pruebaTe.E0F8465C.Up2Date

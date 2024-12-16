@@ -1,0 +1,13 @@
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlCronometro\Cronometro\bin\Debug\Cronometro.exe.config
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlCronometro\Cronometro\bin\Debug\Cronometro.exe
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlCronometro\Cronometro\bin\Debug\Cronometro.pdb
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlCronometro\Cronometro\obj\Debug\Cronometro.csproj.AssemblyReference.cache
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlCronometro\Cronometro\obj\Debug\Cronometro.Properties.Resources.resources
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlCronometro\Cronometro\obj\Debug\Cronometro.csproj.GenerateResource.cache
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlCronometro\Cronometro\obj\Debug\Cronometro.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlCronometro\Cronometro\obj\Debug\Cronometro.exe
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlCronometro\Cronometro\obj\Debug\Cronometro.pdb
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlCronometro\Cronometro\bin\Debug\ControlCronometro.dll
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlCronometro\Cronometro\bin\Debug\ControlCronometro.pdb
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlCronometro\Cronometro\obj\Debug\Cronometro.Form1.resources
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlCronometro\Cronometro\obj\Debug\Cronometro.csproj.Up2Date

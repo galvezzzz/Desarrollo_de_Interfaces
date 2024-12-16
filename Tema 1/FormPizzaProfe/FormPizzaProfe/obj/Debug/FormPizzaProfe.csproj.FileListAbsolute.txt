@@ -1,0 +1,10 @@
+C:\Users\Alberto\Desktop\2DAM\Interfaces\FormPizzaProfe\FormPizzaProfe\bin\Debug\FormPizzaProfe.exe.config
+C:\Users\Alberto\Desktop\2DAM\Interfaces\FormPizzaProfe\FormPizzaProfe\bin\Debug\FormPizzaProfe.exe
+C:\Users\Alberto\Desktop\2DAM\Interfaces\FormPizzaProfe\FormPizzaProfe\bin\Debug\FormPizzaProfe.pdb
+C:\Users\Alberto\Desktop\2DAM\Interfaces\FormPizzaProfe\FormPizzaProfe\obj\Debug\FormPizzaProfe.csproj.AssemblyReference.cache
+C:\Users\Alberto\Desktop\2DAM\Interfaces\FormPizzaProfe\FormPizzaProfe\obj\Debug\FormPizzaProfe.Form1.resources
+C:\Users\Alberto\Desktop\2DAM\Interfaces\FormPizzaProfe\FormPizzaProfe\obj\Debug\FormPizzaProfe.Properties.Resources.resources
+C:\Users\Alberto\Desktop\2DAM\Interfaces\FormPizzaProfe\FormPizzaProfe\obj\Debug\FormPizzaProfe.csproj.GenerateResource.cache
+C:\Users\Alberto\Desktop\2DAM\Interfaces\FormPizzaProfe\FormPizzaProfe\obj\Debug\FormPizzaProfe.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\Desktop\2DAM\Interfaces\FormPizzaProfe\FormPizzaProfe\obj\Debug\FormPizzaProfe.exe
+C:\Users\Alberto\Desktop\2DAM\Interfaces\FormPizzaProfe\FormPizzaProfe\obj\Debug\FormPizzaProfe.pdb

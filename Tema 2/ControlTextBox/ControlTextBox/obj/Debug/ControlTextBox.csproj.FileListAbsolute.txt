@@ -1,0 +1,8 @@
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlTextBox\ControlTextBox\bin\Debug\ControlTextBox.dll
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlTextBox\ControlTextBox\bin\Debug\ControlTextBox.pdb
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlTextBox\ControlTextBox\obj\Debug\ControlTextBox.csproj.AssemblyReference.cache
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlTextBox\ControlTextBox\obj\Debug\ControlTextBox.csproj.GenerateResource.cache
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlTextBox\ControlTextBox\obj\Debug\ControlTextBox.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlTextBox\ControlTextBox\obj\Debug\ControlTextBox.dll
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlTextBox\ControlTextBox\obj\Debug\ControlTextBox.pdb
+C:\Users\Alberto\Desktop\2DAM\Interfaces\Tema 2\ControlTextBox\ControlTextBox\obj\Debug\ControlTextBox.TextBoxPersonalizado.resources
