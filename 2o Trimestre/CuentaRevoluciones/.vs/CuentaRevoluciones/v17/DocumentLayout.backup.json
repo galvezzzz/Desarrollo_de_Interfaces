@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alberto\\source\\repos\\CuentaRevoluciones\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E974EA41-CFD4-4475-819A-1859DC1D918F}|CuentaRevoluciones\\CuentaRevoluciones.csproj|c:\\users\\alberto\\source\\repos\\cuentarevoluciones\\cuentarevoluciones\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E974EA41-CFD4-4475-819A-1859DC1D918F}|CuentaRevoluciones\\CuentaRevoluciones.csproj|solutionrelative:cuentarevoluciones\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E974EA41-CFD4-4475-819A-1859DC1D918F}|CuentaRevoluciones\\CuentaRevoluciones.csproj|c:\\users\\alberto\\source\\repos\\cuentarevoluciones\\cuentarevoluciones\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E974EA41-CFD4-4475-819A-1859DC1D918F}|CuentaRevoluciones\\CuentaRevoluciones.csproj|solutionrelative:cuentarevoluciones\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Alberto\\source\\repos\\CuentaRevoluciones\\CuentaRevoluciones\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "CuentaRevoluciones\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Alberto\\source\\repos\\CuentaRevoluciones\\CuentaRevoluciones\\MainWindow.xaml",
+              "RelativeToolTip": "CuentaRevoluciones\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-09T07:31:16.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto\\source\\repos\\CuentaRevoluciones\\CuentaRevoluciones\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CuentaRevoluciones\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Alberto\\source\\repos\\CuentaRevoluciones\\CuentaRevoluciones\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CuentaRevoluciones\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswBgAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T07:31:13.405Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

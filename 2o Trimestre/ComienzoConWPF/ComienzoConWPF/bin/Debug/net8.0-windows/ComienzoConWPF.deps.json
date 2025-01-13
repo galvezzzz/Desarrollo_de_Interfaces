@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ComienzoConWPF/1.0.0": {
+        "runtime": {
+          "ComienzoConWPF.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ComienzoConWPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
