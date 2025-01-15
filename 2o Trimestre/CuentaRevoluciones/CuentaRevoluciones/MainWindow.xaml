@@ -169,6 +169,7 @@
                             </Trigger>
                             <Trigger Property="IsPressed" Value="true">
                                 <Setter Property="BorderBrush" TargetName="border" Value="#FF232323"/>
+                               
                             </Trigger>
                             <Trigger Property="IsEnabled" Value="false">
                                 <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background1}"/>
@@ -185,18 +186,23 @@
         </Style>
     </Window.Resources>
 
-    <Grid RenderTransformOrigin="0.492,0.485">
-        <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black"/>
-                <GradientStop Color="White" Offset="0.354"/>
-            </LinearGradientBrush>
-        </Grid.Background>
-        <Image Margin="189,99,0,0" Source="/cuenta-revoluciones-removebg-preview.png" HorizontalAlignment="Left" Width="428" Height="229" VerticalAlignment="Top"/>
-        <Grid Margin="151,0,0,0" Background="Gainsboro" HorizontalAlignment="Left" Width="102" Height="38" VerticalAlignment="Center">
+    <Grid RenderTransformOrigin="0.492,0.485" Background="White">
+        <Grid.LayoutTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.LayoutTransform>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Image Margin="199,103,0,0" Source="/cuenta-revoluciones-removebg-preview.png" HorizontalAlignment="Left" Width="428" Height="229" VerticalAlignment="Top"/>
+        <Grid Margin="141,0,0,0" Background="Gainsboro" HorizontalAlignment="Left" Width="102" Height="38" VerticalAlignment="Center">
             <Label x:Name="cuentaRevolucionesLbl" Content="0 " HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Red" FontWeight="Bold" FontFamily="Bahnschrift" Margin="10,0,0,0" RenderTransformOrigin="0.496,0.548" FontSize="20"/>
         </Grid>
-        <CheckBox x:Name="arranque" Unchecked="CheckBox_Unchecked" Template="{StaticResource ImageCheckBoxTemplate}" HorizontalAlignment="Left" VerticalAlignment="Center" Height="50" RenderTransformOrigin="0.5,0.5" Width="48" Margin="559,0,0,0" Checked="CheckBox_Checked" >
+        <CheckBox x:Name="arranque" Unchecked="CheckBox_Unchecked" Template="{StaticResource ImageCheckBoxTemplate}" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" RenderTransformOrigin="0.5,0.5" Width="48" Margin="194,244,0,0" Checked="CheckBox_Checked" >
             <CheckBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="-1" ScaleY="-1"/>
@@ -206,28 +212,44 @@
                 </TransformGroup>
             </CheckBox.RenderTransform>
         </CheckBox>
-        <Image x:Name="aguja" Margin="335,158,0,0" Source="/aguja.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="110" Height="111" VerticalAlignment="Top">
+        <Image x:Name="Aguja" Source="/aguja.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="180" Height="180" VerticalAlignment="Top" Margin="310,126,0,0">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
                     <SkewTransform/>
-                    <RotateTransform Angle="786.577"/>
+                    <RotateTransform x:Name="RotarAguja" Angle="786.577"/>
                     <TranslateTransform/>
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
 
-        <RepeatButton x:Name="BotonAcelerador" Style="{DynamicResource EstiloAcelerador}" Margin="457,0,0,37" Foreground="White" FontFamily="Bahnschrift" HorizontalAlignment="Left" Width="64" Height="64" VerticalAlignment="Bottom" BorderBrush="White" Click="BotonAcelerador_Click" Delay="0" Interval="1">
+        <RepeatButton x:Name="BotonAcelerador" Style="{DynamicResource EstiloAcelerador}" Margin="468,0,0,33" Foreground="White" FontFamily="Bahnschrift" HorizontalAlignment="Left" Width="64" Height="64" VerticalAlignment="Bottom" BorderBrush="White" Click="BotonAcelerador_Click" Delay="0" Interval="1">
             <RepeatButton.Background>
                 <ImageBrush ImageSource="/gas-pedal.png"/>
             </RepeatButton.Background>
         </RepeatButton>
 
-        <RepeatButton Style="{DynamicResource EstiloBrake}" Margin="266,0,0,37" Foreground="White" FontFamily="Bahnschrift" HorizontalAlignment="Left" Width="64" Height="64" VerticalAlignment="Bottom" BorderBrush="White">
+        <RepeatButton x:Name="BotonFreno" Style="{DynamicResource EstiloBrake}" Margin="277,0,0,33" Foreground="White" FontFamily="Bahnschrift" HorizontalAlignment="Left" Width="64" Height="64" VerticalAlignment="Bottom" BorderBrush="White" Delay="0" Interval="1" Click="BotonFreno_Click">
             <RepeatButton.Background>
                 <ImageBrush ImageSource="/brake.png"/>
             </RepeatButton.Background>
         </RepeatButton>
+        <RadioButton x:Name="CaballosAltos" Content="400HP" HorizontalAlignment="Left" Height="19" Margin="569,237,0,0" VerticalAlignment="Top" Width="97" FontFamily="Bahnschrift" GroupName="Caballos" Checked="CaballosAltos_Checked"/>
+        <RadioButton x:Name="CaballosBajos" Content="100HP" HorizontalAlignment="Left" Height="19" Margin="569,189,0,0" VerticalAlignment="Top" Width="97" FontFamily="Bahnschrift" GroupName="Caballos" Checked="CaballosBajos_Checked" IsChecked="False"/>
+        <RadioButton x:Name="CaballosMedios" Content="200HP" HorizontalAlignment="Left" Height="19" Margin="569,213,0,0" VerticalAlignment="Top" Width="97" FontFamily="Bahnschrift" GroupName="Caballos" Checked="CaballosMedios_Checked" IsChecked="False"/>
+        <Grid Margin="268,46,0,0" Background="Gainsboro" HorizontalAlignment="Left" Width="264" Height="34" VerticalAlignment="Top">
+            <Label x:Name="cuentaRevolucionesLbl1" Content="..." HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Red" FontFamily="Bahnschrift" RenderTransformOrigin="0.496,0.548" Height="22" Width="246"/>
+        </Grid>
+        <Label Content="NOTIFICACIONES" HorizontalAlignment="Left" Height="25" Margin="348,21,0,0" VerticalAlignment="Top" Width="104" FontFamily="Bahnschrift"/>
+        <Rectangle x:Name="progresoRPM" HorizontalAlignment="Left" Height="355" Margin="666,46,0,0" Stroke="Black" VerticalAlignment="Top" Width="38">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop x:Name="colorBlanco" Color="White" Offset="0.982"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="rpmLbl" Content="RPM" HorizontalAlignment="Left" Margin="141,173,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift"/>
 
     </Grid>
 </Window>
