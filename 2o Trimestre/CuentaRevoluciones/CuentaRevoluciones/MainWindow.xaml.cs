@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Configuration.Internal;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -15,115 +16,120 @@ namespace CuentaRevoluciones
     {
         double rpmDigitales = 1000;
         double sumaCaballos;
+        int sumaAngulo = 35;
+
+        private const double COLORBLANCO = 0.98;
+        private const int RPMARRANCADO = 1000;
+        private const int RPMCERO = 0;
+        private const int ANGULOCERO = 759;
+        private const double ANGULOINICIO = 786;
+        private const int ANGULOFINAL = 1017;
+        private const string DIGITALCERO = "0";
+        private const string DIGITALMIL = "1000";
+        private const string ENCIENDE = "Enciende el motor";
+        private const string ARRANCA = "El coche ha arrancado";
+        private const string APAGA = "El coche se ha apagado";
+
+
+        // Crear constantes, funciones para código repetido y caballos cambiarlos teniendo el coche apagado
 
         public MainWindow()
         {
             InitializeComponent();
-            RotarAguja.Angle = 759.452;
-            cuentaRevolucionesLbl.Content = "0";
-        }
-
-
-        private void StartCar()
-        {
-            cuentaRevolucionesLbl1.Content = "El coche ha arrancado";
-        }
-
-        private void StopCar()
-        {
-            cuentaRevolucionesLbl1.Content = "El coche se ha apagado";
+            RotarAguja.Angle = ANGULOCERO;
+            cuentaRevolucionesLbl.Content = DIGITALCERO;
         }
 
         private void CheckBox_Unchecked(object sender, RoutedEventArgs e)
         {
-            StopCar();
-            cuentaRevolucionesLbl.Content = "0";
-            rpmDigitales = 0;
-            RotarAguja.Angle = 759.452;
+            cuentaRevolucionesLbl1.Content = APAGA;
+            cuentaRevolucionesLbl.Content = DIGITALCERO;
+            rpmDigitales = RPMCERO;
+            RotarAguja.Angle = ANGULOCERO;
         }
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
         {
-            StartCar();
-            cuentaRevolucionesLbl.Content = "1000";
-            RotarAguja.Angle = 786.577;
+            cuentaRevolucionesLbl1.Content = ARRANCA;
+            cuentaRevolucionesLbl.Content = DIGITALMIL;
+            RotarAguja.Angle = ANGULOINICIO;
         }
 
         private void BotonAcelerador_Click(object sender, RoutedEventArgs e)
         {
+            establecerPedalAcelerador();
+        }
 
+        private void CaballosBajos_Checked(object sender, RoutedEventArgs e)
+        {
+            establecerCaballos(1);
+        }
+
+        private void CaballosMedios_Checked(object sender, RoutedEventArgs e)
+        {
+            establecerCaballos(1.3);
+        }
+
+        private void CaballosAltos_Checked(object sender, RoutedEventArgs e)
+        {
+            establecerCaballos(1.75);
+        }
+
+        private void BotonFreno_Click(object sender, RoutedEventArgs e)
+        {
+            establecerPedalFreno();
+        }
+
+        private void establecerCaballos(double velocidadCaballos)
+        {
             if ((bool)arranque.IsChecked)
             {
-                if (RotarAguja.Angle <= 1017.702)
+                sumaCaballos = velocidadCaballos;
+                rpmDigitales = RPMARRANCADO;
+                RotarAguja.Angle = ANGULOINICIO;
+                cuentaRevolucionesLbl.Content = DIGITALMIL;
+                colorBlanco.Offset = COLORBLANCO;
+            }
+            else
+            {
+                cuentaRevolucionesLbl1.Content = ENCIENDE;
+            }
+        }
+
+        private void establecerPedalFreno()
+        {
+            if ((bool)arranque.IsChecked)
+            {
+                if (RotarAguja.Angle >= ANGULOINICIO)
                 {
-                    rpmDigitales += 35 * sumaCaballos;
+                    RotarAguja.Angle -= sumaCaballos;
+                    rpmDigitales -= sumaAngulo * sumaCaballos;
+                    colorBlanco.Offset += sumaCaballos * 0.01;
+                }
+                cuentaRevolucionesLbl.Content = rpmDigitales.ToString();
+            }
+            else
+            {
+                cuentaRevolucionesLbl1.Content = ENCIENDE;
+            }
+        }
+
+        private void establecerPedalAcelerador()
+        {
+            if ((bool)arranque.IsChecked)
+            {
+                if (RotarAguja.Angle <= ANGULOFINAL)
+                {
+                    rpmDigitales += sumaAngulo * sumaCaballos;
                     RotarAguja.Angle += sumaCaballos;
                     colorBlanco.Offset -= sumaCaballos * 0.01;
                 }
                 cuentaRevolucionesLbl.Content = rpmDigitales.ToString();
             }
             else
-            { 
-                cuentaRevolucionesLbl1.Content = "Enciende el motor";
-            }
-        }
-
-        private void CaballosBajos_Checked(object sender, RoutedEventArgs e)
-        {
-            if ((bool)arranque.IsChecked)
             {
-                sumaCaballos = 1;
-                rpmDigitales = 1000;
-                RotarAguja.Angle = 786.577;
-                cuentaRevolucionesLbl.Content = "1000";
+                cuentaRevolucionesLbl1.Content = ENCIENDE;
             }
-            else
-            {
-                cuentaRevolucionesLbl1.Content = "Enciende el motor";
-            }
-        }
-
-        private void CaballosMedios_Checked(object sender, RoutedEventArgs e)
-        {
-            if ((bool)arranque.IsChecked)
-            {
-                sumaCaballos = 1.25;
-                rpmDigitales = 1000;
-                RotarAguja.Angle = 786.577;
-                cuentaRevolucionesLbl.Content = "1000";
-            }
-            else
-            {
-                cuentaRevolucionesLbl1.Content = "Enciende el motor";
-            }
-        }
-
-        private void CaballosAltos_Checked(object sender, RoutedEventArgs e)
-        {
-            if ((bool)arranque.IsChecked)
-            {
-                sumaCaballos = 1.75;
-                rpmDigitales = 1000;
-                RotarAguja.Angle = 786.577;
-                cuentaRevolucionesLbl.Content = "1000";
-            }
-            else
-            {
-                cuentaRevolucionesLbl1.Content = "Enciende el motor";
-            }
-        }
-
-        private void BotonFreno_Click(object sender, RoutedEventArgs e)
-        {
-            if (RotarAguja.Angle >= 786.576)
-            {
-                RotarAguja.Angle -= sumaCaballos;
-                rpmDigitales -= 35 * sumaCaballos;
-                colorBlanco.Offset += sumaCaballos * 0.01;
-            }
-
-
-            cuentaRevolucionesLbl.Content = rpmDigitales.ToString();
         }
     }
 }
