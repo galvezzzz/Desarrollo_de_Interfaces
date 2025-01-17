@@ -234,9 +234,9 @@
                 <ImageBrush ImageSource="/brake.png"/>
             </RepeatButton.Background>
         </RepeatButton>
-        <RadioButton x:Name="CaballosAltos" Content="400HP" HorizontalAlignment="Left" Height="19" Margin="569,237,0,0" VerticalAlignment="Top" Width="97" FontFamily="Bahnschrift" GroupName="Caballos" Checked="CaballosAltos_Checked"/>
-        <RadioButton x:Name="CaballosBajos" Content="100HP" HorizontalAlignment="Left" Height="19" Margin="569,189,0,0" VerticalAlignment="Top" Width="97" FontFamily="Bahnschrift" GroupName="Caballos" Checked="CaballosBajos_Checked" IsChecked="False"/>
-        <RadioButton x:Name="CaballosMedios" Content="200HP" HorizontalAlignment="Left" Height="19" Margin="569,213,0,0" VerticalAlignment="Top" Width="97" FontFamily="Bahnschrift" GroupName="Caballos" Checked="CaballosMedios_Checked" IsChecked="False"/>
+        <RadioButton x:Name="CaballosAltos" Content="400CV" HorizontalAlignment="Left" Height="19" Margin="569,237,0,0" VerticalAlignment="Top" Width="97" FontFamily="Bahnschrift" GroupName="Caballos" Checked="CaballosAltos_Checked"/>
+        <RadioButton x:Name="CaballosBajos" Content="100CV" HorizontalAlignment="Left" Height="19" Margin="569,189,0,0" VerticalAlignment="Top" Width="97" FontFamily="Bahnschrift" GroupName="Caballos" Checked="CaballosBajos_Checked" IsChecked="False"/>
+        <RadioButton x:Name="CaballosMedios" Content="200CV" HorizontalAlignment="Left" Height="19" Margin="569,213,0,0" VerticalAlignment="Top" Width="97" FontFamily="Bahnschrift" GroupName="Caballos" Checked="CaballosMedios_Checked" IsChecked="False"/>
         <Grid Margin="268,46,0,0" Background="Gainsboro" HorizontalAlignment="Left" Width="264" Height="34" VerticalAlignment="Top">
             <Label x:Name="cuentaRevolucionesLbl1" Content="..." HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Red" FontFamily="Bahnschrift" RenderTransformOrigin="0.496,0.548" Height="22" Width="246"/>
         </Grid>

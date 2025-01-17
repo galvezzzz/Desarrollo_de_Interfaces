@@ -31,7 +31,7 @@ namespace CuentaRevoluciones
         private const string APAGA = "El coche se ha apagado";
 
 
-        // Crear constantes, funciones para código repetido y caballos cambiarlos teniendo el coche apagado
+        // caballos cambiarlos teniendo el coche apagado
 
         public MainWindow()
         {
@@ -46,6 +46,11 @@ namespace CuentaRevoluciones
             cuentaRevolucionesLbl.Content = DIGITALCERO;
             rpmDigitales = RPMCERO;
             RotarAguja.Angle = ANGULOCERO;
+            colorBlanco.Offset = COLORBLANCO;
+            CaballosAltos.IsEnabled = true;
+            CaballosMedios.IsEnabled = true;
+            CaballosBajos.IsEnabled = true;
+
         }
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
@@ -53,11 +58,23 @@ namespace CuentaRevoluciones
             cuentaRevolucionesLbl1.Content = ARRANCA;
             cuentaRevolucionesLbl.Content = DIGITALMIL;
             RotarAguja.Angle = ANGULOINICIO;
+            CaballosAltos.IsEnabled = false;
+            CaballosMedios.IsEnabled = false;
+            CaballosBajos.IsEnabled = false;
         }
 
         private void BotonAcelerador_Click(object sender, RoutedEventArgs e)
         {
             establecerPedalAcelerador();
+            BotonAcelerador.Width = 60;
+            BotonAcelerador.Height = 60;
+        }
+
+        private void BotonFreno_Click(object sender, RoutedEventArgs e)
+        {
+            establecerPedalFreno();
+            BotonFreno.Width = 60;
+            BotonFreno.Height = 60;
         }
 
         private void CaballosBajos_Checked(object sender, RoutedEventArgs e)
@@ -75,25 +92,11 @@ namespace CuentaRevoluciones
             establecerCaballos(1.75);
         }
 
-        private void BotonFreno_Click(object sender, RoutedEventArgs e)
+        private double establecerCaballos(double velocidadCaballos)
         {
-            establecerPedalFreno();
-        }
-
-        private void establecerCaballos(double velocidadCaballos)
-        {
-            if ((bool)arranque.IsChecked)
-            {
-                sumaCaballos = velocidadCaballos;
-                rpmDigitales = RPMARRANCADO;
-                RotarAguja.Angle = ANGULOINICIO;
-                cuentaRevolucionesLbl.Content = DIGITALMIL;
-                colorBlanco.Offset = COLORBLANCO;
-            }
-            else
-            {
-                cuentaRevolucionesLbl1.Content = ENCIENDE;
-            }
+            sumaCaballos = velocidadCaballos;
+            return sumaCaballos;
+  
         }
 
         private void establecerPedalFreno()
