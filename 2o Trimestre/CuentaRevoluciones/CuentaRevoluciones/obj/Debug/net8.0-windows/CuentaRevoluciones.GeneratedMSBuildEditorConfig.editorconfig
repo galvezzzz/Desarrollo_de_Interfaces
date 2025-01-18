@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CuentaRevoluciones
-build_property.ProjectDir = C:\Users\Alberto\source\repos\CuentaRevoluciones\CuentaRevoluciones\
+build_property.ProjectDir = C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

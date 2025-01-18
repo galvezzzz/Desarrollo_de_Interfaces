@@ -14,11 +14,11 @@
             <ControlTemplate.Triggers>
                 <!-- Estado sin marcar -->
                 <Trigger Property="IsChecked" Value="False">
-                    <Setter TargetName="CheckboxImage" Property="Source" Value="C:\Users\Alberto\Downloads\apagado.png"/>
+                    <Setter TargetName="CheckboxImage" Property="Source" Value="C:\Users\Alberto\Downloads\apagado.jpg"/>
                 </Trigger>
                 <!-- Estado marcado -->
                 <Trigger Property="IsChecked" Value="True">
-                    <Setter TargetName="CheckboxImage" Property="Source" Value="C:\Users\Alberto\Downloads\encendido.png"/>
+                    <Setter TargetName="CheckboxImage" Property="Source" Value="C:\Users\Alberto\Downloads\encendido.jpg"/>
                 </Trigger>
             </ControlTemplate.Triggers>
         </ControlTemplate>
@@ -199,8 +199,8 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Image Margin="199,103,0,0" Source="/cuenta-revoluciones-removebg-preview.png" HorizontalAlignment="Left" Width="428" Height="229" VerticalAlignment="Top"/>
-        <Grid Margin="141,0,0,0" Background="Gainsboro" HorizontalAlignment="Left" Width="102" Height="38" VerticalAlignment="Center">
-            <Label x:Name="cuentaRevolucionesLbl" Content="0 " HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Red" FontWeight="Bold" FontFamily="Bahnschrift" Margin="10,0,0,0" RenderTransformOrigin="0.496,0.548" FontSize="20"/>
+        <Grid x:Name="marcoRpm" Margin="141,0,0,0" Background="Gainsboro" HorizontalAlignment="Left" Width="102" Height="38" VerticalAlignment="Center">
+            <Label x:Name="cuentaRevolucionesLbl" Content="0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Red" FontWeight="Bold" FontFamily="Bahnschrift" Margin="10,0,0,0" RenderTransformOrigin="0.496,0.548" FontSize="20"/>
         </Grid>
         <CheckBox x:Name="arranque" Unchecked="CheckBox_Unchecked" Template="{StaticResource ImageCheckBoxTemplate}" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" RenderTransformOrigin="0.5,0.5" Width="48" Margin="194,244,0,0" Checked="CheckBox_Checked" >
             <CheckBox.RenderTransform>

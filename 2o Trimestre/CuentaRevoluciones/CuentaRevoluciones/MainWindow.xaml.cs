@@ -65,6 +65,7 @@ namespace CuentaRevoluciones
 
         private void BotonAcelerador_Click(object sender, RoutedEventArgs e)
         {
+<<<<<<< Updated upstream
             establecerPedalAcelerador();
             BotonAcelerador.Width = 60;
             BotonAcelerador.Height = 60;
@@ -101,6 +102,8 @@ namespace CuentaRevoluciones
 
         private void establecerPedalFreno()
         {
+=======
+>>>>>>> Stashed changes
             if ((bool)arranque.IsChecked)
             {
                 if (RotarAguja.Angle >= ANGULOINICIO)
@@ -131,8 +134,70 @@ namespace CuentaRevoluciones
             }
             else
             {
+<<<<<<< Updated upstream
                 cuentaRevolucionesLbl1.Content = ENCIENDE;
             }
+=======
+                sumaCaballos = 1;
+                rpmDigitales = 1000;
+                RotarAguja.Angle = 786.577;
+                cuentaRevolucionesLbl.Content = "1000";
+                colorBlanco.Offset = 0.99;
+            }
+            else
+            {
+                cuentaRevolucionesLbl1.Content = "Enciende el motor";
+            }
+        }
+
+        private void CaballosMedios_Checked(object sender, RoutedEventArgs e)
+        {
+            if ((bool)arranque.IsChecked)
+            {
+                sumaCaballos = 1.25;
+                rpmDigitales = 1000;
+                RotarAguja.Angle = 786.577;
+                cuentaRevolucionesLbl.Content = "1000";
+            }
+            else
+            {
+                cuentaRevolucionesLbl1.Content = "Enciende el motor";
+            }
+        }
+
+        private void CaballosAltos_Checked(object sender, RoutedEventArgs e)
+        {
+            if ((bool)arranque.IsChecked)
+            {
+                sumaCaballos = 1.75;
+                rpmDigitales = 1000;
+                RotarAguja.Angle = 786.577;
+                cuentaRevolucionesLbl.Content = "1000";
+            }
+            else
+            {
+                cuentaRevolucionesLbl1.Content = "Enciende el motor";
+            }
+        }
+
+        private void BotonFreno_Click(object sender, RoutedEventArgs e)
+        {
+            if ((bool)arranque.IsChecked)
+            {
+                if (RotarAguja.Angle >= 786.576)
+                {
+                    RotarAguja.Angle -= sumaCaballos;
+                    rpmDigitales -= 35 * sumaCaballos;
+                    colorBlanco.Offset += sumaCaballos * 0.01;
+                }
+                cuentaRevolucionesLbl.Content = rpmDigitales.ToString();
+            }
+            else
+            {
+                cuentaRevolucionesLbl1.Content = "Enciende el motor";
+            }
+
+>>>>>>> Stashed changes
         }
     }
 }

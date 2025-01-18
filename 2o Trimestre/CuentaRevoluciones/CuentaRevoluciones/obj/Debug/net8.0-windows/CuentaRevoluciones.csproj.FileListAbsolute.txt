@@ -17,3 +17,23 @@ C:\Users\Alberto\source\repos\CuentaRevoluciones\CuentaRevoluciones\obj\Debug\ne
 C:\Users\Alberto\source\repos\CuentaRevoluciones\CuentaRevoluciones\obj\Debug\net8.0-windows\CuentaRevoluciones.pdb
 C:\Users\Alberto\source\repos\CuentaRevoluciones\CuentaRevoluciones\obj\Debug\net8.0-windows\CuentaRevoluciones.genruntimeconfig.cache
 C:\Users\Alberto\source\repos\CuentaRevoluciones\CuentaRevoluciones\obj\Debug\net8.0-windows\ref\CuentaRevoluciones.dll
+C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\bin\Debug\net8.0-windows\CuentaRevoluciones.exe
+C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\bin\Debug\net8.0-windows\CuentaRevoluciones.deps.json
+C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\bin\Debug\net8.0-windows\CuentaRevoluciones.runtimeconfig.json
+C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\bin\Debug\net8.0-windows\CuentaRevoluciones.dll
+C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\bin\Debug\net8.0-windows\CuentaRevoluciones.pdb
+C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\obj\Debug\net8.0-windows\CuentaRevoluciones_MarkupCompile.cache
+C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\obj\Debug\net8.0-windows\CuentaRevoluciones.g.resources
+C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\obj\Debug\net8.0-windows\CuentaRevoluciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\obj\Debug\net8.0-windows\CuentaRevoluciones.AssemblyInfoInputs.cache
+C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\obj\Debug\net8.0-windows\CuentaRevoluciones.AssemblyInfo.cs
+C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\obj\Debug\net8.0-windows\CuentaRevoluciones.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\obj\Debug\net8.0-windows\CuentaRevoluciones.sourcelink.json
+C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\obj\Debug\net8.0-windows\CuentaRevoluciones.dll
+C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\obj\Debug\net8.0-windows\refint\CuentaRevoluciones.dll
+C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\obj\Debug\net8.0-windows\CuentaRevoluciones.pdb
+C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\obj\Debug\net8.0-windows\CuentaRevoluciones.genruntimeconfig.cache
+C:\Users\Alberto\Documents\GitHub\Desarrollo_de_Interfaces\2o Trimestre\CuentaRevoluciones\CuentaRevoluciones\obj\Debug\net8.0-windows\ref\CuentaRevoluciones.dll

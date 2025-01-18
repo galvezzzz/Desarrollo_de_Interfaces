@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alberto\\source\\repos\\CuentaRevoluciones\\",
+  "WorkspaceRootPath": "C:\\Users\\Alberto\\Documents\\GitHub\\Desarrollo_de_Interfaces\\2o Trimestre\\CuentaRevoluciones\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{E974EA41-CFD4-4475-819A-1859DC1D918F}|CuentaRevoluciones\\CuentaRevoluciones.csproj|c:\\users\\alberto\\source\\repos\\cuentarevoluciones\\cuentarevoluciones\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+=======
+      "AbsoluteMoniker": "D:0:0:{E974EA41-CFD4-4475-819A-1859DC1D918F}|CuentaRevoluciones\\CuentaRevoluciones.csproj|c:\\users\\alberto\\documents\\github\\desarrollo_de_interfaces\\2o trimestre\\cuentarevoluciones\\cuentarevoluciones\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{E974EA41-CFD4-4475-819A-1859DC1D918F}|CuentaRevoluciones\\CuentaRevoluciones.csproj|solutionrelative:cuentarevoluciones\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -24,13 +28,14 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Alberto\\source\\repos\\CuentaRevoluciones\\CuentaRevoluciones\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Documents\\GitHub\\Desarrollo_de_Interfaces\\2o Trimestre\\CuentaRevoluciones\\CuentaRevoluciones\\MainWindow.xaml",
               "RelativeDocumentMoniker": "CuentaRevoluciones\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Alberto\\source\\repos\\CuentaRevoluciones\\CuentaRevoluciones\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Alberto\\Documents\\GitHub\\Desarrollo_de_Interfaces\\2o Trimestre\\CuentaRevoluciones\\CuentaRevoluciones\\MainWindow.xaml",
               "RelativeToolTip": "CuentaRevoluciones\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-01-17T09:00:11.861Z",
               "EditorCaption": ""
+<<<<<<< Updated upstream
             },
             {
               "$type": "Document",
@@ -44,6 +49,8 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-09T07:31:13.405Z",
               "EditorCaption": ""
+=======
+>>>>>>> Stashed changes
             }
           ]
         }
