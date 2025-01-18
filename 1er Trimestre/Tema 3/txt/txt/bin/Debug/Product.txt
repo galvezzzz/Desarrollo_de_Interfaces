@@ -1,5 +1,0 @@
-product_name;price;stock;
-cappucino;3500;12;
-vanilla_milk;5000;12;
-orange_juice;4500;10;
-mineral_water;2000;15;
