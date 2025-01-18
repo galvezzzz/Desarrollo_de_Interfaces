@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alberto\\source\\repos\\ComienzoConWPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD208962-B38E-4710-9911-5C666B3E8B43}|ComienzoConWPF\\ComienzoConWPF.csproj|c:\\users\\alberto\\source\\repos\\comienzoconwpf\\comienzoconwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD208962-B38E-4710-9911-5C666B3E8B43}|ComienzoConWPF\\ComienzoConWPF.csproj|solutionrelative:comienzoconwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD208962-B38E-4710-9911-5C666B3E8B43}|ComienzoConWPF\\ComienzoConWPF.csproj|c:\\users\\alberto\\source\\repos\\comienzoconwpf\\comienzoconwpf\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{DD208962-B38E-4710-9911-5C666B3E8B43}|ComienzoConWPF\\ComienzoConWPF.csproj|solutionrelative:comienzoconwpf\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto\\source\\repos\\ComienzoConWPF\\ComienzoConWPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ComienzoConWPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Alberto\\source\\repos\\ComienzoConWPF\\ComienzoConWPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ComienzoConWPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T11:11:39.876Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Alberto\\source\\repos\\ComienzoConWPF\\ComienzoConWPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ComienzoConWPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Alberto\\source\\repos\\ComienzoConWPF\\ComienzoConWPF\\MainWindow.xaml",
+              "RelativeToolTip": "ComienzoConWPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-08T11:10:30.103Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
