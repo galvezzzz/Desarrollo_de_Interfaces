@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alberto\\source\\repos\\CuentaRevoluciones\\CuentaRevoluciones\\CuentaRevoluciones.csproj",
+      "projectUniqueName": "C:\\Users\\Alberto\\Desktop\\CuentaRevoluciones\\CuentaRevoluciones\\CuentaRevoluciones.csproj",
       "projectName": "CuentaRevoluciones",
-      "projectPath": "C:\\Users\\Alberto\\source\\repos\\CuentaRevoluciones\\CuentaRevoluciones\\CuentaRevoluciones.csproj",
+      "projectPath": "C:\\Users\\Alberto\\Desktop\\CuentaRevoluciones\\CuentaRevoluciones\\CuentaRevoluciones.csproj",
       "packagesPath": "C:\\Users\\Alberto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alberto\\source\\repos\\CuentaRevoluciones\\CuentaRevoluciones\\obj\\",
+      "outputPath": "C:\\Users\\Alberto\\Desktop\\CuentaRevoluciones\\CuentaRevoluciones\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alberto\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

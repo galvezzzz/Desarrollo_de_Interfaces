@@ -16,8 +16,9 @@ namespace CuentaRevoluciones
     {
         double rpmDigitales = 1000;
         double sumaCaballos;
-        int sumaAngulo = 35;
+        int sumaAngulo = 33;
 
+        private const int RPMMAXIMOS = 9000;
         private const double COLORBLANCO = 0.98;
         private const int RPMARRANCADO = 1000;
         private const int RPMCERO = 0;
@@ -84,12 +85,12 @@ namespace CuentaRevoluciones
 
         private void CaballosMedios_Checked(object sender, RoutedEventArgs e)
         {
-            establecerCaballos(1.3);
+            establecerCaballos(1.5);
         }
 
         private void CaballosAltos_Checked(object sender, RoutedEventArgs e)
         {
-            establecerCaballos(1.75);
+            establecerCaballos(2);
         }
 
         private double establecerCaballos(double velocidadCaballos)
@@ -105,9 +106,14 @@ namespace CuentaRevoluciones
             {
                 if (RotarAguja.Angle >= ANGULOINICIO)
                 {
-                    RotarAguja.Angle -= sumaCaballos;
                     rpmDigitales -= sumaAngulo * sumaCaballos;
+                    RotarAguja.Angle -= sumaCaballos;
                     colorBlanco.Offset += sumaCaballos * 0.01;
+
+                    if (RotarAguja.Angle <= ANGULOINICIO)
+                    {
+                        rpmDigitales = RPMARRANCADO;
+                    }
                 }
                 cuentaRevolucionesLbl.Content = rpmDigitales.ToString();
             }
@@ -123,9 +129,15 @@ namespace CuentaRevoluciones
             {
                 if (RotarAguja.Angle <= ANGULOFINAL)
                 {
-                    rpmDigitales += sumaAngulo * sumaCaballos;
+                    
                     RotarAguja.Angle += sumaCaballos;
                     colorBlanco.Offset -= sumaCaballos * 0.01;
+                    rpmDigitales += sumaAngulo * sumaCaballos;
+
+                    if (RotarAguja.Angle >= ANGULOFINAL)
+                    {
+                        rpmDigitales = RPMMAXIMOS;
+                    }
                 }
                 cuentaRevolucionesLbl.Content = rpmDigitales.ToString();
             }

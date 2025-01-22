@@ -14,11 +14,11 @@
             <ControlTemplate.Triggers>
                 <!-- Estado sin marcar -->
                 <Trigger Property="IsChecked" Value="False">
-                    <Setter TargetName="CheckboxImage" Property="Source" Value="C:\Users\Alberto\Downloads\apagado.png"/>
+                    <Setter TargetName="CheckboxImage" Property="Source" Value="C:\Users\Alberto\Desktop\CuentaRevoluciones\CuentaRevoluciones\apagado.png"/>
                 </Trigger>
                 <!-- Estado marcado -->
                 <Trigger Property="IsChecked" Value="True">
-                    <Setter TargetName="CheckboxImage" Property="Source" Value="C:\Users\Alberto\Downloads\encendido.png"/>
+                    <Setter TargetName="CheckboxImage" Property="Source" Value="C:\Users\Alberto\Desktop\CuentaRevoluciones\CuentaRevoluciones\encendido.png"/>
                 </Trigger>
             </ControlTemplate.Triggers>
         </ControlTemplate>

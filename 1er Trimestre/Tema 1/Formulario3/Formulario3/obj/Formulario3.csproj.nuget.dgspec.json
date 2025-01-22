@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alberto\\Desktop\\2DAM\\Interfaces\\Tema 1\\Formulario3\\Formulario3\\Formulario3.csproj": {}
+    "C:\\Users\\Alberto\\Documents\\GitHub\\Desarrollo_de_Interfaces\\1er Trimestre\\Tema 1\\Formulario3\\Formulario3\\Formulario3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alberto\\Desktop\\2DAM\\Interfaces\\Tema 1\\Formulario3\\Formulario3\\Formulario3.csproj": {
+    "C:\\Users\\Alberto\\Documents\\GitHub\\Desarrollo_de_Interfaces\\1er Trimestre\\Tema 1\\Formulario3\\Formulario3\\Formulario3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alberto\\Desktop\\2DAM\\Interfaces\\Tema 1\\Formulario3\\Formulario3\\Formulario3.csproj",
+        "projectUniqueName": "C:\\Users\\Alberto\\Documents\\GitHub\\Desarrollo_de_Interfaces\\1er Trimestre\\Tema 1\\Formulario3\\Formulario3\\Formulario3.csproj",
         "projectName": "Formulario3",
-        "projectPath": "C:\\Users\\Alberto\\Desktop\\2DAM\\Interfaces\\Tema 1\\Formulario3\\Formulario3\\Formulario3.csproj",
+        "projectPath": "C:\\Users\\Alberto\\Documents\\GitHub\\Desarrollo_de_Interfaces\\1er Trimestre\\Tema 1\\Formulario3\\Formulario3\\Formulario3.csproj",
         "packagesPath": "C:\\Users\\Alberto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alberto\\Desktop\\2DAM\\Interfaces\\Tema 1\\Formulario3\\Formulario3\\obj\\",
+        "outputPath": "C:\\Users\\Alberto\\Documents\\GitHub\\Desarrollo_de_Interfaces\\1er Trimestre\\Tema 1\\Formulario3\\Formulario3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alberto\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

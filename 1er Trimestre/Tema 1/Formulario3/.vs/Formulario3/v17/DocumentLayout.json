@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alberto\\Desktop\\2DAM\\Interfaces\\Tema 1\\Formulario3\\",
+  "WorkspaceRootPath": "C:\\Users\\Alberto\\Documents\\GitHub\\Desarrollo_de_Interfaces\\1er Trimestre\\Tema 1\\Formulario3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{798CE856-F87C-423E-A6B2-17BFA9C3A009}|Formulario3\\Formulario3.csproj|c:\\users\\alberto\\desktop\\2dam\\interfaces\\tema 1\\formulario3\\formulario3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{798CE856-F87C-423E-A6B2-17BFA9C3A009}|Formulario3\\Formulario3.csproj|c:\\users\\alberto\\documents\\github\\desarrollo_de_interfaces\\1er trimestre\\tema 1\\formulario3\\formulario3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{798CE856-F87C-423E-A6B2-17BFA9C3A009}|Formulario3\\Formulario3.csproj|solutionrelative:formulario3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{798CE856-F87C-423E-A6B2-17BFA9C3A009}|Formulario3\\Formulario3.csproj|C:\\Users\\Alberto\\Desktop\\2DAM\\Interfaces\\Tema 1\\Formulario3\\formulario3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{798CE856-F87C-423E-A6B2-17BFA9C3A009}|Formulario3\\Formulario3.csproj|C:\\Users\\Alberto\\Documents\\GitHub\\Desarrollo_de_Interfaces\\1er Trimestre\\Tema 1\\Formulario3\\formulario3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{798CE856-F87C-423E-A6B2-17BFA9C3A009}|Formulario3\\Formulario3.csproj|solutionrelative:formulario3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Alberto\\Desktop\\2DAM\\Interfaces\\Tema 1\\Formulario3\\Formulario3\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Documents\\GitHub\\Desarrollo_de_Interfaces\\1er Trimestre\\Tema 1\\Formulario3\\Formulario3\\Form1.cs",
               "RelativeDocumentMoniker": "Formulario3\\Form1.cs",
-              "ToolTip": "C:\\Users\\Alberto\\Desktop\\2DAM\\Interfaces\\Tema 1\\Formulario3\\Formulario3\\Form1.cs",
+              "ToolTip": "C:\\Users\\Alberto\\Documents\\GitHub\\Desarrollo_de_Interfaces\\1er Trimestre\\Tema 1\\Formulario3\\Formulario3\\Form1.cs",
               "RelativeToolTip": "Formulario3\\Form1.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAmwFcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwFcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T07:46:49.958Z",
               "IsPinned": true,
@@ -38,10 +38,10 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Alberto\\Desktop\\2DAM\\Interfaces\\Tema 1\\Formulario3\\Formulario3\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Documents\\GitHub\\Desarrollo_de_Interfaces\\1er Trimestre\\Tema 1\\Formulario3\\Formulario3\\Form1.cs",
               "RelativeDocumentMoniker": "Formulario3\\Form1.cs",
               "ToolTip": "C:\\Users\\Alberto\\Desktop\\2DAM\\Interfaces\\Tema 1\\Formulario3\\Formulario3\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Formulario3\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Desktop\\2DAM\\Interfaces\\Tema 1\\Formulario3\\Formulario3\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T11:27:41.103Z"
             }
