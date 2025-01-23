@@ -7,12 +7,152 @@
 </head>
 <style>
 
+header {
+    display: block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid #000000;
+    position: relative;
+}
+
+.logotipo{
+    text-align: left;
+}
+.buscar{
+
+}
+
+#textoBuscar{
+    text-align: right;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+header .search {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+header .search input {
+    padding: 5px;
+}
+
+.menu {
+    background-color: #ddd;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    float: left;
+    margin-right: 2%;
+}
+
+.sidebar h3 {
+    font-size: 16px;
+    color: #333;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 14px;
+}
+
+.sidebar p {
+    font-size: 14px;
+}
+
+main {
+    width: 54%;
+    float: left;
+    margin-right: 2%;
+}
+
+main article {
+    margin-bottom: 20px;
+}
+
+main article h2 {
+    font-size: 18px;
+    color: #000;
+}
+
+main article img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+main article p {
+    font-size: 14px;
+}
+
+main article a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.right-sidebar {
+    width: 20%;
+    float: left;
+}
+
+.right-sidebar h3 {
+    font-size: 16px;
+    color: #333;
+}
+
+.right-sidebar p {
+    font-size: 14px;
+}
+
+.right-sidebar a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+footer {
+    clear: both;
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
 </style>
 <body>
     <header>
-        <h1>LOGOTIPO</h1>
-        <p>Buscar</p>
-        <input type="text">
+        <div class="logotipo">
+            <h1>LOGOTIPO</h1>
+        </div>
+        <div class="buscar">
+            <p id="textoBuscar">Buscar</p>
+            <input type="text" id="buscador" placeholder="">
+        </div>
     </header>
 
     <nav>
@@ -37,15 +177,90 @@
         <a href="https://www.elpespuntearreglos.com/mi-pedido">Enlace 1</a>
         <a href="https://www.elpespuntearreglos.com/mi-pedido">Enlace 2</a>
         <a href="https://www.elpespuntearreglos.com/mi-pedido">Enlace 3</a>
+
+        <h3>Publicidad</h3>
+        <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+        <a href="https://www.elpespuntearreglos.com/mi-pedido">Seguir leyendo</a>
     </aside>
 
     <main>
+        <div>
+            <h2>
+                Lorem ipsum dolor sit amet, consectetuer adispicing elit
+            </h2>
 
+            <img src="Image-not-found.png">
+
+            <p>
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. 
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. 
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. 
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.
+            </p>
+            <a href="https://www.elpespuntearreglos.com/mi-pedido">Seguir leyendo</a>
+        </div>
+
+        <div>
+            <h2>
+                Vivamus lobortis turpis ac ante frigilla yo
+            </h2>
+
+            <img src="Image-not-found.png">
+            
+            <p>
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. 
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. 
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. 
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.
+            </p>
+            <a href="https://www.elpespuntearreglos.com/mi-pedido">Seguir leyendo</a>
+        </div>
     </main>
 
     <aside>
+        <div>
+            <h2>
+                Shaq O Neal
+            </h2>
 
+            <p>
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. 
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. 
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. 
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.
+            </p>
+            <a href="https://www.elpespuntearreglos.com/mi-pedido">Seguir leyendo</a>
+        </div>
+
+        <div>
+            <h2>
+                Vince Carter
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. 
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. 
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. 
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.
+            </p>
+            <a href="https://www.elpespuntearreglos.com/mi-pedido">Seguir leyendo</a>
+        </div>
     </aside>
+
+    <footer>
+        <div>
+            <a href="https://www.elpespuntearreglos.com/mi-pedido">Miguel</a>
+            <a href="https://www.elpespuntearreglos.com/mi-pedido">Miguelito</a>
+            <a href="https://www.elpespuntearreglos.com/mi-pedido">Miguelón</a>
+            <a href="https://www.elpespuntearreglos.com/mi-pedido">Migue</a>
+            <a href="https://www.elpespuntearreglos.com/mi-pedido">Miguelín</a>
+            <a href="https://www.elpespuntearreglos.com/mi-pedido">Miguelillo</a>
+        </div>
+        <div>
+            <p>© Copyright</p>
+        </div>
+
+    </footer>
 
 </body>
 </html>
