@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="flex1.css">
 <body>
     <div id="container">
-        <header>
+        <header class="header">
             <div id="header1">
                 <p>MY PORTFOLIO</p>
                 <div id="menuHeader">
@@ -18,29 +18,31 @@
 
             <div id="container2">
                 <div id="header2">
-                    <p id="pHeader2">HELLO MY NAME IS ADA LOVELACE</p>
-                    <h1>I Am A Creative Web Designer</h1>
+                    <p id="pHeader2">HELLO, MY NAME IS ADA LOVELACE</p>
+                    <h1 id="tituloHeader">I Am A Creative Web Designer</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum mollitia incidunt, esse voluptatum neque amet ad voluptas doloribus sequi veritatis</p>
                     <input id="buttonContact" type="button" value="Contact me">
                 </div>
     
                 <img id="imagen1" src="Imagenes/showcase.png" alt="showcase">
             </div>
-
         </header>
 
         <nav class="seccionAzul">
             <div id="seccion1">
+                <img src="Imagenes/icon-1.png" alt="concept" id="icon1">
                 <h4>Concept Design</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
             </div>
 
             <div id="seccion2">
+                <img src="Imagenes/icon-2.png" alt="concept" id="icon2">
                 <h4>UX/UI Designer</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
             </div>
 
             <div id="seccion3">
+                <img src="Imagenes/icon-3.png" alt="concept" id="icon3">
                 <h4>Web Developer</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
             </div>
@@ -48,41 +50,49 @@
 
         <main class="main">
             <article id="myWork">
-                <h2>My Work</h2>
-                <img>
-                <img>
-                <img>
-                <img>
+                <p id="myWorkText">My Work</p>
+                <div id="imagenesPortfolio"> 
+                    <img src="Imagenes/portfolio-1.jpg" alt="portfolio1" id="portfolio1">
+                    <img src="Imagenes/portfolio-2.jpg" alt="portfolio2" id="portfolio2">
+                    <img src="Imagenes/portfolio-3.jpg" alt="portfolio3" id="portfolio3">
+                    <img src="Imagenes/portfolio-4.jpg" alt="portfolio4" id="portfolio4">
+                </div>
             </article>
             
             <article id="about">
-                <h2>About</h2>
-                <img>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut 
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-                    sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                <h2 id="tituloAbout">About</h2>
+
+                <div id="containerAbout">
+                    <img src="Imagenes/about.jpg" alt="about" id="aboutImg">
+                    <p id="textoAbout">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut 
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
             </article>
 
-            <article id="contact">
-                <h2>Contact</h2>
-                <form>
+            <article>
+                <h2 id="tituloContact">Contact</h2>
+                <form id="formContact">
                     <p>Name</p>
-                    <input type="text">
+                    <input type="text" id="inputName">
 
                     <p>Email</p>
-                    <input type="email">
+                    <input type="email" id="inputEmail">
 
                     <p>Message</p>
-                    <textarea></textarea>
-                    <input type="submit" value="Send Message">
+                    <input type="text" id="largeInput">
+
+                    <input id="buttonSend" type="button" value="Send Message">
                 </form>
+                
         </main>
 
-        <footer>
+        <footer id="footer">
             <p>© 2020 My Portfolio</p>
         </footer>
     </div>
