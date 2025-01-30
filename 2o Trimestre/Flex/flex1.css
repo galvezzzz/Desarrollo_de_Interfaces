@@ -1,9 +1,6 @@
 #container{
-    display: flex;
     margin: auto;
-    width: 1200px;
     font-family: "Roboto", sans-serif;
-    flex-direction: column;
 }
 
 
@@ -18,22 +15,21 @@
     justify-content: space-between;
     padding: 10px;
     font-weight: bold;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 500px;
+    margin-right: 500px;
     margin-top: 10px;
 }
 
 #menuHeader{
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 10px;
 }
 
 #container2{
     display: flex;
     padding: 10px;
-    margin: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
 #header2{
@@ -81,7 +77,9 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 20px;
+    margin-left: 500px;
+    margin-right: 20px;
+ 
 }
 
 #seccion2{
@@ -89,7 +87,8 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 #seccion3{
@@ -97,7 +96,8 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 500px;
 }
 
 #icon1{
@@ -117,18 +117,10 @@
 
 
 /* Sección principal */
-
-.main{
-    display: flex;
-   flex-direction: column;
-}
-
-
 /* My work */
 
 #myWorkText{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin: 20px;
     margin-top: 60px;
     margin-bottom: 20px;
@@ -170,9 +162,6 @@
 /* About */
 
 #about{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-top: 60px;
     background-color: rgb(240, 240, 240);
 }
@@ -181,11 +170,12 @@
     display: flex;
     justify-content: center;
     margin: 20px;
+    margin-right: 500px;
+    margin-left: 500px;
 }
 
 #tituloAbout{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin: 20px;
     margin-top: 60px;
     margin-bottom: 20px;
@@ -209,13 +199,14 @@
 /* Contact */
 
 #formContact{
-    margin-left: 200px;
-    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
 #tituloContact{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin: 20px;
     margin-top: 60px;
     margin-bottom: 20px;

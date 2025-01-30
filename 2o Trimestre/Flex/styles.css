@@ -1,0 +1,156 @@
+button {
+    padding: 0.5em;
+    border-radius: 0.5em;
+    text-align: center;
+    color: white;
+    border-color: dodgerblue;
+    background-color: dodgerblue;
+}
+
+#encabezado, #presentacion, #caracteristicas {
+    padding: 0% 10% 2% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#primera_caracteristica, #segunda_caracteristica, #tercera_caracteristica {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#icono1, #icono2, #icono3 {
+    width: 100px;
+    height: 100px;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+#titulo1, #titulo2, #titulo3 {
+    margin: 0;
+    text-align: center;
+}
+
+#parrafo1, #parrafo2, #parrafo3 {
+    width: 300px;
+    font-size: smaller;
+    text-align: center;
+}
+
+#portfolio1, #portfolio2, #portfolio3, #portfolio4 {
+    width: 200px;
+    height: 250px;
+    margin-top: 1em; 
+    margin-right: 0.5em;   
+}
+
+#menu {
+    gap: 1em;
+    display: flex;
+    list-style-type: none;
+}
+
+#name {
+    color: skyblue;
+}
+
+#iam {
+    width: 350px;
+    margin: 0;
+    font-size: 300%;
+}
+
+#description {
+    width: 450px;
+}
+
+#btn_contactMe {
+    width: 120px;
+    margin-top: 1em;
+}
+
+#caracteristicas {
+    height: 275px;
+    background-color: lightblue;
+}
+
+#mis_trabajos {
+    padding: 0% 10% 2% 10%;
+    margin-top: 5em;
+    text-align: center;
+}
+
+#about {
+    padding: 0% 10% 2% 10%;
+    margin-top: 2em;
+    background-color: lightgray;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#contenido_about {
+    gap: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img_about {
+    width: 400px;
+    height: 250px;
+}
+
+#texto_about {
+    width: 400px;
+    font-size: smaller;
+}
+
+#contact {
+    padding: 0% 10% 0% 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#titulo_contact {
+    text-align: center;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+#input_nombre, #input_email, #mensaje {
+    width: 500px;
+    background-color: lightgray;
+    border-radius: 0.5em;
+    border-color: lightgray;
+}
+
+#input_nombre, #input_email {
+    height: 20px;
+}
+
+#mensaje {
+    max-width: 500px;
+    min-width: 500px;
+    max-height: 200px;
+}
+
+#btn_send {
+    width: 500px;
+}
+
+#pie_pagina {
+    padding: 0% 10% 0% 10%;
+    margin-top: 2em;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
