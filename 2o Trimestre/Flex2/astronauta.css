@@ -1,0 +1,7 @@
+.seccion1{
+    background-image: showcase.jpg;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 20px;
+}
