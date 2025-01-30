@@ -1,7 +1,64 @@
+.container{
+    font-family: sans-serif;
+}
+
 .seccion1{
-    background-image: showcase.jpg;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    background-image: url(imagenes/showcase.jpg);
     color: white;
     margin: 20px;
+    height: 600px;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#tituloHeader{
+    text-align: left;
+    font-size: 46px;
+    font-weight: lighter;
+    margin: 20px;
+    margin-left: 100px;
+    margin-right: 700px;
+}
+
+#parrafoHeader{
+    text-align: left;
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 20px;
+    margin-left: 100px;
+    margin-right: 800px;
+}
+
+#imagenes1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#img1{
+    width: 300px;
+    height: 200px;
+    
+
+}
+
+#img2{
+    width: 300px;
+    height: 200px;
+
+}
+
+#img3{
+    width: 300px;
+    height: 200px;
+
 }
